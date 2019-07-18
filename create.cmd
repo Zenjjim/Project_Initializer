@@ -1,5 +1,5 @@
 @echo off
-cd /d C:\YourDesiredPath
+cd /d C:\\YourDesiredPath
 IF [%1]==[] GOTO :Done
 IF exist %1 GOTO :Exists
 
