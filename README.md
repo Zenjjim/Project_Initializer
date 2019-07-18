@@ -1,1 +1,1 @@
-Project Project_Initializer's read me:
+Project ProjectInitializer's read me:
