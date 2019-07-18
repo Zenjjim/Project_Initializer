@@ -1,5 +1,5 @@
 @echo off
-cd /d C:\Users\Zaim Imran\Documents\Projects
+cd /d C:\YourDesiredPath
 IF [%1]==[] GOTO :Done
 IF exist %1 GOTO :Exists
 
@@ -11,12 +11,13 @@ type nul > README.md
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/Zenjjim/%1.git
+git remote add origin https://github.com/YourUsername/%1.git
 git push -u origin master
 cls
 
 @echo Project %1 is created
-start chrome github.com/zenjjim/%1
+start chrome github.com/YourUsername/%1
 :Exists
 @echo Project exists already. Try again
+code .
 :Done

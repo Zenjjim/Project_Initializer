@@ -2,8 +2,8 @@ import sys
 import os
 from github import Github
 
-accessToken = "7bc2891f0d63b879e324ce97a3b839285041fbf8"
-path = "C:\\Users\Zaim Imran\Documents\Projects"
+accessToken = ""
+path = "C:\\YourPath"
 
 def create():
   foldername = str(sys.argv[1])
