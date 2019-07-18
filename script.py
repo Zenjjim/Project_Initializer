@@ -2,7 +2,7 @@ import sys
 import os
 from github import Github
 
-accessToken = ""
+accessToken = "YourAccessToken"
 path = "C:\\YourPath"
 
 def create():
