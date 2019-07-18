@@ -17,7 +17,8 @@ cls
 
 @echo Project %1 is created
 start chrome github.com/YourUsername/%1
+code .
+GOTO :Done
 :Exists
 @echo Project exists already. Try again
-code .
 :Done
