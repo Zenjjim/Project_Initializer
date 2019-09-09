@@ -9,6 +9,7 @@
 git clone https://github.com/Zenjjim/Project_Initializer.git
 cd
 Fill in your path and auth token in both script.py and create.cmd
+Run: python -m pip install pygithub
 Set the directory to the environment path in advance settings
 ```
 
