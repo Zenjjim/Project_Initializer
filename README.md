@@ -7,16 +7,22 @@
 ## Install:
 ```
 git clone https://github.com/Zenjjim/Project_Initializer.git
-cd
-Fill in your path and auth token in both script.py and create.cmd
-Run: python -m pip install pygithub
-Set the directory to the environment path in advance settings
+cd Project_Initializer
 ```
+Fill in your path and auth token in both script.py and create.cmd
+```
+python -m pip install pygithub
+```
+Set the directory to path in environment variables
+
 
 ## Usage:
+In the terminal, use the command
 ```
-In the terminal, use the command 'create <project_name>' to create your new project
+create <project_name>
 ```
+in terminal to create your new project
+
 
 ---
 
