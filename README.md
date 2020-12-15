@@ -1,28 +1,30 @@
 # Project ProjectInitializer
-
-**Works only for Windows**
-
----
-
 ## Install:
+Clone project:
 ```
 git clone https://github.com/Zenjjim/Project_Initializer.git
 cd Project_Initializer
 ```
-Fill in your path and auth token in both script.py and create.cmd
+Fill constants in project_initializer.sh:
 ```
-python -m pip install pygithub
+GITHUB_USERNAME="username"
+GITHUB_API_TOKEN="XXXXXXXXX"
+ABSOLUTE_PATH_TO_PROJECTS_FOLDER="$HOME/ABC/"
+ABSOLUTE_PATH_TO_INITIALIZER="$HOME/XYZ/"
 ```
-Set the directory to path in environment variables
+Install python dependency
+```
+pip3 install PyGithub
+```
+Set `alias custom_command='source $HOME/XYZ/Project_Initializer/project_initializer.sh'` in .bashrc
 
 
 ## Usage:
 In the terminal, use the command
 ```
-create <project_name>
+custom_command <project_name>
 ```
-in terminal to create your new project
-
+to create a new project
 
 ---
 
